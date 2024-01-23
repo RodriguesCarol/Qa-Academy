@@ -1,17 +1,20 @@
 package easy;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Exercicio03_easy {//inicio algoritimo
-    ///DECLARANDO VARIAVEIS
-    static String primeiroValor; 
-    static String segundoValor;
-    public static void main(String[] args) { //inicio método "Maestro"
-        primeiroValor = JOptionPane.showInputDialog("Digite um valor");
-        segundoValor = JOptionPane.showInputDialog("Digite um valor");
-    System.out.println("O primeiro valor digitado é :"+ primeiroValor);
-    System.out.println ("O segundo valor                    digitado é :"+ segundoValor);
-    }//fim metodo Maestro
-    
-    
+    public String retornaPalavras (String palavra1, String palavra2){
+        return "A primeira palavra digitada é  "+ palavra1 + " " + "e a segunda é "+ palavra2;
+    }
 
 }//fim algoritimo
+// ///DECLARANDO VARIAVEIS
+    // STATIC STRING PRIMEIROVALOR; 
+    // STATIC STRING SEGUNDOVALOR;
+    // PUBLIC STATIC VOID MAIN(STRING[] ARGS) { //INICIO MÉTODO "MAESTRO"
+    //     PRIMEIROVALOR = JOPTIONPANE.SHOWINPUTDIALOG("DIGITE UM VALOR");
+    //     SEGUNDOVALOR = JOPTIONPANE.SHOWINPUTDIALOG("DIGITE UM VALOR");
+    // SYSTEM.OUT.PRINTLN("O PRIMEIRO VALOR DIGITADO É :"+ PRIMEIROVALOR);
+    // SYSTEM.OUT.PRINTLN ("O SEGUNDO VALOR                    DIGITADO É :"+ SEGUNDOVALOR);
+    // }//FIM METODO MAESTRO
+    
+    
