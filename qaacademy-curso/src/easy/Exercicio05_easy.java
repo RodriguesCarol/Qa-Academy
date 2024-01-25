@@ -1,5 +1,5 @@
 package easy;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Exercicio05_easy {// inicio
     public Integer retornaSoma(int primeiroNumero, int segundoNumero, int terceiroNumero ) {

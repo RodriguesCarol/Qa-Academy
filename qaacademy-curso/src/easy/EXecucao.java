@@ -60,12 +60,18 @@ public class EXecucao {
         // System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
 
 
-        String salarioStg = JOptionPane.showInputDialog("Digite um valor");
-        Double salario = Double.parseDouble(salarioStg);
-        Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
-        System.out.println(" O cálculo de imposto de INSS é: "+ exercicio07_easy.calculaInss(salario));
+        // String salarioStg = JOptionPane.showInputDialog("Digite um valor");
+        // Double salario = Double.parseDouble(salarioStg);
+        // Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
+        // System.out.println(" O cálculo de imposto de INSS é: "+ exercicio07_easy.calculaInss(salario));
 
-
+        String salarioStg = JOptionPane.showInputDialog("Digite seu salário");
+        double salarioBruto = Double.parseDouble(salarioStg);
+        Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
+        System.out.println("O valor do seu Imposto de Renda é: " + exercicio08_easy.calculaImpostoRenda(salarioBruto));
+        double imposto = exercicio08_easy.calculaImpostoRenda(salarioBruto);
+        System.out.println("O valor do seu salário liquido é: "+ exercicio08_easy.calculaSalarioLiquido(salarioBruto, imposto));
+   
 
     }
 

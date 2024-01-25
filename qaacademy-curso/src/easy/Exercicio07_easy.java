@@ -1,5 +1,5 @@
 package easy;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Exercicio07_easy {// inicio clase
     public Double calculaInss(Double salario) {
