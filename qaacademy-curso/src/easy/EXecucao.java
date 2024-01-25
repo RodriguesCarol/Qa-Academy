@@ -19,11 +19,29 @@ public class EXecucao {
     //    String numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
     //    String resultado = numeroDigitado *2;
 
-      String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um número");
-      Integer numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
-      Exercicio04_easy exercicio04_easy = new Exercicio04_easy();
-      System.out.println("O dobro de " + numeroDigitado+ " é " + exercicio04_easy.calculaDobro(numeroDigitado));
+    //   String numeroDigitadoUsuario = JOptionPane.showInputDialog("Digite um número");
+    //   Integer numeroDigitado = Integer.parseInt(numeroDigitadoUsuario);
+    //   Exercicio04_easy exercicio04_easy = new Exercicio04_easy();
+    //   System.out.println("O dobro de " + numeroDigitado+ " é " + exercicio04_easy.calculaDobro(numeroDigitado));
 
-    }
+
+
+    String primeiroNumeroDigitado = JOptionPane.showInputDialog("Digite aqui o primeiro número");
+    String segundoNumeroDigitado = JOptionPane.showInputDialog("Digite aqui o segundo número");
+    String terceiroNumeroDigitado = JOptionPane.showInputDialog("Digite aqui o terceironúmero");
+    int primeiroNumero = Integer.parseInt(primeiroNumeroDigitado);
+    int segundoNumero = Integer.parseInt(segundoNumeroDigitado);
+    int terceiroNumero = Integer.parseInt(terceiroNumeroDigitado);
+    Exercicio05_easy exercicio05_easy= new Exercicio05_easy();
+    System.out.println("A soma dos números digitados são: "  + exercicio05_easy.retornaSoma (primeiroNumero, segundoNumero, terceiroNumero));
+    System.out.println("A subtração dos números digitados são: "  + exercicio05_easy.retornaSubratacao(primeiroNumero, segundoNumero, terceiroNumero));
+    System.out.println("A multiplicação dos números digitados são: "  + exercicio05_easy.retornaMultiplicacao(primeiroNumero, segundoNumero, terceiroNumero));
+    int soma = exercicio05_easy.retornaSoma(primeiroNumero, segundoNumero, terceiroNumero);
+    System.out.println("A divisão dos números digitados são: "  + exercicio05_easy.retornaMedia(soma));
+
+
+}
+
+
 
 }
