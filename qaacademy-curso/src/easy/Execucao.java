@@ -2,7 +2,7 @@ package easy;
 
 import javax.swing.JOptionPane;
 
-public class EXecucao {
+public class Execucao {
     public static void main(String[] args) {
         // Exercicio02_easy exercicio02_easy = new Exercicio02_easy();
         // String palavra = exercicio02_easy.retornaPalavra("Carol");
@@ -72,10 +72,19 @@ public class EXecucao {
         // double imposto = exercicio08_easy.calculaImpostoRenda(salarioBruto);
         // System.out.println("O valor do seu salário liquido é: "+ exercicio08_easy.calculaSalarioLiquido(salarioBruto, imposto));
    
-        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número para calcular a tabuada");
-        int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
-        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
-        exercicio09_easy.calculaTabuada(numeroDigitado);
-    }
+    //     String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número para calcular a tabuada");
+    //     int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+    //     Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+    //     exercicio09_easy.calculaTabuada(numeroDigitado);
+    // }
+    String investimentoStg = JOptionPane.showInputDialog("Digite o valor do seu investimento");
+    double valorInvestimento = Double.parseDouble(investimentoStg);
+    Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
+    double valorJuros = exercicio10_2_easy.calculaInvestimento(valorInvestimento);
+    double valorTotal = valorJuros + valorInvestimento;
+    System.out.println("O valor investido é: " + valorInvestimento);
+    System.out.println("O valor do juros é: " + valorJuros);
+    System.out.println("O valor total é: "+ valorTotal);
 
+}
 }
