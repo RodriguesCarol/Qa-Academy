@@ -18,8 +18,12 @@ public class Execucao {
         // System.out.println("O valor do juros é " + valorJuros);
         // System.out.println("O valor acumulado é: " + valorTotal);
 
-        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
-        exercicio04_medium.resultadoMultiplicacao();
+        // Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+        // exercicio04_medium.resultadoMultiplicacao();
+
+        Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
+        int menorNumeroDigitado = exercicio05_medium.verificaMenorNumero();
+        System.out.println("O menor numero digitado é: " + menorNumeroDigitado);
     }
     
 }
