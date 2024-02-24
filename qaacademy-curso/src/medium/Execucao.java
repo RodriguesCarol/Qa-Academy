@@ -19,12 +19,12 @@ public class Execucao {
         // System.out.println("O valor do juros é " + valorJuros);
         // System.out.println("O valor acumulado é: " + valorTotal);
 
-        String fatorialDigitadoStr = JOptionPane.showInputDialog("Digite um número que deseja ver o fatorial");
-        int fatorialDigitado= Integer.parseInt(fatorialDigitadoStr);
+        // String fatorialDigitadoStr = JOptionPane.showInputDialog("Digite um número que deseja ver o fatorial");
+        // int fatorialDigitado= Integer.parseInt(fatorialDigitadoStr);
         
-        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
-        int valorFatorial = exercicio03_medium.retornaFatorial(fatorialDigitado);
-        System.out.println(valorFatorial);
+        // Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+        // int valorFatorial = exercicio03_medium.retornaFatorial(fatorialDigitado);
+        // System.out.println(valorFatorial);
 
 
 
@@ -34,6 +34,10 @@ public class Execucao {
         // Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
         // int menorNumeroDigitado = exercicio05_medium.verificaMenorNumero();
         // System.out.println("O menor numero digitado é: " + menorNumeroDigitado);
+
+        Exercicio07_08_medium exercicio07_08_medium= new Exercicio07_08_medium();
+        String [] mesesAno = exercicio07_08_medium.criaVetorMeses();
+        exercicio07_08_medium.imprimirVetorMeses(mesesAno);
 
 
     }

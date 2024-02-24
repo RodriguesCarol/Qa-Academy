@@ -1,6 +1,6 @@
 package medium;
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Exercicio03_medium {
     public int retornaFatorial (int fatorial){
