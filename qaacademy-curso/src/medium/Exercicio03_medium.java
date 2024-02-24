@@ -3,17 +3,30 @@ package medium;
 import javax.swing.JOptionPane;
 
 public class Exercicio03_medium {
-    public static void main(String[] args) {
-        int fatorial, i;
-        String fatorialDigitado = JOptionPane.showInputDialog("Digite o fatorial");
-        fatorial = Integer.parseInt(fatorialDigitado);
-        i = fatorial;
-        while (i > 1) {
+    public int retornaFatorial (int fatorial){
+        int i;
+        i= fatorial;
+        while (i>1) {
             fatorial = fatorial * (i - 1);
-            i--;
-
+              i--;
         }
-        System.out.println("O fatorial do numero digitado é: " + fatorial);
-    }
+        return fatorial;
 
+        
+    }
+    
 }
+
+
+// PUBLIC STATIC VOID MAIN(STRING[] ARGS) {
+    //     INT FATORIAL, I;
+    //     STRING FATORIALDIGITADO = JOPTIONPANE.SHOWINPUTDIALOG("DIGITE O FATORIAL");
+    //     FATORIAL = INTEGER.PARSEINT(FATORIALDIGITADO);
+    //     I = FATORIAL;
+    //     WHILE (I > 1) {
+    //         FATORIAL = FATORIAL * (I - 1);
+    //         I--;
+
+    //     }
+    //     SYSTEM.OUT.PRINTLN("O FATORIAL DO NUMERO DIGITADO É: " + FATORIAL);
+    // }
