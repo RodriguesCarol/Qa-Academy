@@ -39,9 +39,14 @@ public class Execucao {
         // String [] mesesAno = exercicio07_08_medium.criaVetorMeses();
         // exercicio07_08_medium.imprimirVetorMeses(mesesAno);
 
-        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
-        exercicio09_medium.recebeImprimeAlunosENumeros();
+        // Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        // exercicio09_medium.recebeImprimeAlunosENumeros();
 
+        Exercicio10_medium exercicio10_medium = new Exercicio10_medium();
+        String elementoDigitadoSTG = JOptionPane.showInputDialog("Digite o elemento que imprimirá fibonacci");
+        int elementodigitado = Integer.parseInt(elementoDigitadoSTG);
+        int [] elementoFibonacci = exercicio10_medium.criaVetorFibonacci(elementodigitado);
+        exercicio10_medium.imprimeFibonacci(elementoFibonacci);
 
     }
     
