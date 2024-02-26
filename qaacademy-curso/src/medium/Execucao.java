@@ -35,9 +35,12 @@ public class Execucao {
         // int menorNumeroDigitado = exercicio05_medium.verificaMenorNumero();
         // System.out.println("O menor numero digitado é: " + menorNumeroDigitado);
 
-        Exercicio07_08_medium exercicio07_08_medium= new Exercicio07_08_medium();
-        String [] mesesAno = exercicio07_08_medium.criaVetorMeses();
-        exercicio07_08_medium.imprimirVetorMeses(mesesAno);
+        // Exercicio07_08_medium exercicio07_08_medium= new Exercicio07_08_medium();
+        // String [] mesesAno = exercicio07_08_medium.criaVetorMeses();
+        // exercicio07_08_medium.imprimirVetorMeses(mesesAno);
+
+        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        exercicio09_medium.recebeImprimeAlunosENumeros();
 
 
     }
